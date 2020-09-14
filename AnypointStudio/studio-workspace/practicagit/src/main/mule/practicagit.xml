@@ -4,10 +4,10 @@
 	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
-	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="b0c75046-c160-4f91-99e0-33286a91d1f0" >
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="1710eaa8-c0f8-4ab6-978b-746b2b492985" >
 		<http:listener-connection host="localhost" port="8001" />
 	</http:listener-config>
-	<flow name="practicagitFlow" doc:id="22fb4f19-2fdb-460b-86fd-a47887f593d7" >
-		<http:listener doc:name="Listener" doc:id="91e185e5-79b6-4966-b888-579415dbb05e" config-ref="HTTP_Listener_config" path="/practicagit"/>
+	<flow name="practicagitFlow" doc:id="d66dc8c8-69b7-4d17-8df5-b66d7df8fa89" >
+		<http:listener doc:name="Listener" doc:id="9812b4ab-3a80-4df5-b4a2-2191a4c1bdf6" config-ref="HTTP_Listener_config" path="/practicagit"/>
 	</flow>
 </mule>
